@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>D3 Blok 14</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="navbar">
+
+</div>
+
+<div id="header">
+	<h1>Eindopdracht D3 Nick Groeneveld 2049754</h1><br>
+</div>
+
+<table width="900" border="0">
+	<tr>
+	<td align="center">
+	<h3>Naar welke concerten ben ik geweest?</h3>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<table width="900" border="0">
+		<tr height="25" align="center">
+		<td width="450"><button id="artist">Per artiest</button></td>
+		<td width="450"><button id="venue">Per locatie</button></td>
+		</tr>
+	</table>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<table width="900" border="0">
+		<tr>
+		<td width="600">
+		<section></section>
+		</td>
+		<td width="300">
+		<table border="0" align="left">
+			<tr id="artist0"><th width="100" align="left">Bezoeken</th><th width="200" align="left">Band</th></tr>
+			<tr id="artist1"><td align="left">3</td><td>Slash</td></tr>
+			<tr id="artist2"><td>2</td><td>Golden Earring</td></tr>
+			<tr id="artist3"><td>2</td><td>Che Sudaka</td></tr>
+			<tr id="artist4"><td>1</td><td>ZZ Top</td></tr>
+			<tr id="artist5"><td>1</td><td>John Mayer</td></tr>
+			<tr id="artist6"><td>1</td><td>The Straits</td></tr>
+			<tr id="artist7"><td>1</td><td>Ilse DeLange</td></tr>
+			<tr id="artist8"><td>1</td><td>Joe Bonamassa</td></tr>
+			<tr height="20"><td></td><td></td></tr>
+			<tr id="venue10"><th width="100" align="left">Bezoeken</th><th width="200" align="left">Locatie</th></tr>
+			<tr id="venue11"><td align="left">4</td><td>Heineken Music Hall</td></tr>
+			<tr id="venue12"><td align="left">4</td><td>Appelpop</td></tr>
+			<tr id="venue13"><td align="left">2</td><td>013 Poppodium</td></tr>
+			<tr id="venue14"><td align="left">1</td><td>Martiniplaza</td></tr>
+			<tr id="venue15"><td align="left">1</td><td>W2 Poppodium</td></tr>
+		</table>
+		</td>
+		</tr>
+	</table>
+	</td>
+	</tr>
+</table>
+
+<br>
+
+<hr>
+
+<br>
+
+<table width="900" border="0">
+	<tr>
+	<td width="400"><h3>Hoeveel dagen tot een nationale feestdag?</h3></td>
+	<td width="300" align="center">
+	<button id="kerst">Kerst</button>
+	<button id="oudnieuw">Oud & Nieuw</button>
+	<button id="pasen">Pasen</button>
+	</td>
+	<td width="200">
+	<h3 id="timeleft" class="italic"></h3>
+	</td>
+	</tr>
+</table>
+
+<br>
+
+<hr>
+
+<br>
+
+<table width="900" border="0">
+	<tr>
+	<td align="center">
+	<h3>Strijd der Titanen: wie scoort meer goals?</h3>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<table width="900" border="0">
+		<tr>
+		<td align="center">
+		<img src="img/ronaldo.jpg" align="center"</img>
+		</td>
+		<td align="center">
+		<img src="img/messi.jpg" align="center"</img>
+		</td>
+		</tr>
+		<tr align="center">
+		<td width="450">
+		<button id="dataset">Cristiano Ronaldo</button>
+		</td>
+		<td>
+		<button id="dataset2">Lionel Messi</button>
+		</td>
+		</tr>
+		<tr>
+		<td align="center">
+		<bron>Bron: <a href="http://en.wikipedia.org/wiki/Cristiano_Ronaldo#Career_statistics" target="_blank">Cristiano Ronaldo career statistics</a></bron>
+		</td>
+		<td align="center">
+		<bron>Bron: <a href="http://en.wikipedia.org/wiki/Lionel_Messi#Career_statistics" target="_blank">Lionel Messi career statistics</a></bron>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<p>Hoogte staaf aan de hand van het aantal goals per seizoen in alle competities (La Liga, Copa Del Rey, Champions League).<br>
+		<br>
+		Opmerking: Seizoen 2014-15 is nog bezig. Statistieken per 10 december 2014.</p>
+		</td>
+		<td>
+		<p>Hoogte staaf aan de hand van het aantal goals per seizoen in alle competities (La Liga, Copa Del Rey, Champions League).<br>
+		<br>
+		Opmerking: Seizoen 2014-15 is nog bezig. Statistieken per 10 december 2014.</p>
+		</td>
+		</tr>
+	</table>
+	</td>
+	</tr>
+    <tr>	
+	<td align="center">
+	<voetbal></voetbal>
+	</td>
+    </tr>
+    <tr>
+    <td>
+    <table width="900" border="0">
+    	<tr>
+    	<td width="50">
+    	</td>
+    	<td width="100" align="center">
+    	<p>2007-08</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2008-09</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2009-10</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2010-11</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2011-12</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2012-13</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2013-14</p>
+    	</td>
+    	<td width="100" align="center">
+    	<p>2014-15</p>
+    	</td>
+    	<td width="50">
+    	</td>
+    	</tr>
+    </table>
+    </td>
+    </tr>
+</table>
+
+<script src="js/d3.js"></script>
+<script src="js/concerten.js"></script>
+<script src="js/feestdagen.js"></script>
+<script src="js/voetbal.js"></script>
+
+<script>
+        timeleft();
+</script>
+
+<div id="footer"><br>Nick Groeneveld 2049754 Minor Databeleving</div>
+	
+</div>
+</body>
+</html>
