@@ -1,0 +1,87 @@
+body
+{
+	font-family: "Arial";
+	margin: 0;
+}
+
+h1
+{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+h3
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+p
+{
+	font-size: 14px;
+	font-weight: regular;
+	padding: 10px;
+}
+
+bron
+{
+	font-size: 11px;
+	font-weight: regular;
+	text-align: center;
+	padding: 10px;
+}
+
+path {
+    stroke: #eee;
+    stroke-width: 3px;
+}
+ 
+line {
+    stroke: black;
+}
+ 
+text {
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+#wrapper {
+    background: #eee;
+    width: 900px;
+    margin: 0 auto -4em;
+    height: 100%;
+}
+
+#navbar {
+    background-color: #222;
+    padding: 15px;
+}
+
+#header {
+	color: #000;
+}
+
+#content {
+    margin-top: 40px;
+}
+
+#footer {
+	height: 4em;
+	background: #222;
+	color: #fff;
+	margin-top: 40px;
+	font-size: 12px;
+	font-weight: regular;
+	text-align: center;
+	padding: 10px;
+}
